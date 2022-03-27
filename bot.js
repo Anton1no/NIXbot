@@ -10,14 +10,10 @@ bot.once('ready', () =>{
 bot.on('guildMemberAdd', member => {
     const channel = member.guild.channels.cache.find(ch => ch.name === 'bem-vindos');
     if (!channel) return;
-    channel.send(`Bem Vindo ao ${member.guild.name}! Você é um novo(a) nix, ${member}. Arrombado(a)!`);
+    channel.send(`Bem Vindo ao ${member.guild.name}! Você é um novo(a) nix, ${member}!`)
 });
 
 bot.on('message', msg => {
-    if (msg.content === "duda") {
-        msg.channel.send('Eu te amo mb!!! Ass: Gustavo F.');
-    }
-
     if (msg.content === "meu avatar") {
         msg.channel.send(msg.author.displayAvatarURL());
     }
