@@ -1,2 +1,3 @@
-Protótipo feito para implementar meu servidor do discord.
-Os módulos de música e gerenciamento de usuários foram retirados.
+## NIXbot
+Bot feito para meu servidor no discord. Está uma versão prótipo na qual utilizo para acrecentar módulos e fazer outros bots.
+
