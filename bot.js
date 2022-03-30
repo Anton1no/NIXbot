@@ -4,7 +4,7 @@ const { token } = require('token.json');
 
 bot.once('ready', () =>{
     console.log(`${bot.user.tag} online!!!`);
-    bot.user.setActivity('Compartilhe o servidor!!', { type: 'WATCHING' });
+    bot.user.setActivity('THE BATMAN!!', { type: 'WATCHING' });
 });
 
 bot.on('guildMemberAdd', member => {
