@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = "Nzc5NTI3MTgzMjMyMTM5MjY0.X7h1Qw.oaWRDRryYKoQntBbjNajbj65y_g";
+const { token } = require('token.json');
 
 bot.once('ready', () =>{
     console.log(`${bot.user.tag} online!!!`);
-    bot.user.setActivity('Seu pai de lingerie', { type: 'WATCHING' });
+    bot.user.setActivity('Compartilhe o servidor!!', { type: 'WATCHING' });
 });
 
 bot.on('guildMemberAdd', member => {
